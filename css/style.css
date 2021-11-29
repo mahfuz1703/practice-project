@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ======================navbar part css start================= */
+#navbar {
+    background-color: #ffff;
+}
+
+.navbar-main {
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+    line-height: 90px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding-left: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #222222;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    color: #15a4fa;
+}
+
+/* ===========banner part css start============== */
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+.banner-main {
+    padding-top: 218px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.banner-text {
+    position: relative;
+}
+
+.banner-text h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #ffff;
+    padding-bottom: 77px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.banner-text h1::after {
+    position: absolute;
+    content: '';
+    width: 600px;
+    height: 2px;
+    top: 148px;
+    left: 268px;
+    background-color: #15a4fa;
+}
+
+.banner-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    padding-bottom: 68px;
+}
+
+.banner-button {
+    margin-bottom: 178px;
+}
+
+.banner-button a {
+    width: 178px;
+    height: 54px;
+    border: 1px solid #15a4fa;
+    padding: 20px 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffff;
+    text-transform: uppercase;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.banner-button a:hover {
+    background-color: #15a4fa;
+}
+
+.banner-icon i {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 35px;
+    padding-bottom: 88px;
+}
+
+/* ===================about part css start======================== */
+#about {
+    background-color: #f6f9f9;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #2d3950;
+    padding-bottom: 38px;
+    padding-top: 80px;
+}
+
+.about-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    line-height: 32px;
+    padding: 0 25px;
+    padding-bottom: 112px;
+}
+
+/* ================service part css part start=============== */
+.service-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    width: 344px;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.service-icon i {
+    height: 100px;
+    width: 100px;
+    background-color: #48baff;
+    color: #ffff;
+    line-height: 100px;
+    font-weight: 400;
+    font-size: 70px;
+
+}
+
+.service-icon {
+    margin-bottom: 35px;
+}
+
+.service-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2d3950;
+    padding-bottom: 15px;
+}
+
+.service-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #999999;
+    padding: 0 15px;
+}
+
+/* ==================portfolio part css start======================== */
+#portfolio {
+    background-color: #f6f9f9;
+}
+
+.port-main {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.port-text {
+    text-align: center;
+}
+
+.port-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #2d3950;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.port-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #909090;
+    padding-bottom: 80px;
+}
+
+.port-item {
+    width: 360px;
+}
+
+.port-img {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.port-img img {
+    width: 100%;
+}
+
+.port-overlay {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(24, 152, 232, 0.8);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.port-img:hover .port-overlay {
+    opacity: 1;
+    width: 100%;
+
+}
+
+.port-icon i {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ===================contact part css start===================== */
+#contact {
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#contact::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.contact-main {
+    padding-top: 74px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.contact-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.contact-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    padding-bottom: 50px;
+}
+
+input {
+    width: 72%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 72%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #999999;
+    border-radius: 4px;
+    resize: none;
+  }
+
+button {
+    border: 1px solid #999999;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+button:hover{
+    background-color: #15a4fa;
+    border: 1px solid #15a4fa;
+}
+
+button h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* ===============footer part css start======================= */
+.footer-main{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-text{
+    width: 50%;
+}
+
+.footer-text h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+}
+
+.footer-icon{
+    width: 50%;
+    text-align: right;
+}
+
+.footer-icon i{
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #15a4fa;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.footer-icon i:hover{
+    background-color: #48baff;
+    color: #ffff;
+}
